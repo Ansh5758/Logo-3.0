@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo 3.0</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 700px;
+        }
+        .box{
+            border-radius: 45%;
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+        }
+        .sec1{
+            background-color: rgb(45, 45, 45);
+            height: 150px;
+            width: 150px;
+            border-top-left-radius: 45%;
+            display: flex;
+            align-items: center;
+            margin: .75px;
+            box-shadow: -2px -2px 17px black;
+            justify-content: center;
+        }
+        #plus{
+            color: aliceblue;
+            font-weight: 900;
+            font-size: 80px;
+        }
+        #plusM{
+            color: aliceblue;
+            font-weight: 100;
+            font-size: 150px;
+        }
+        .sec3{
+            background-color: rgb(45, 45, 45);
+            content: "-";
+            height: 150px;
+            box-shadow: 2px -2px 17px black;
+            width: 150px;
+            border-top-right-radius: 45%;
+            display: flex;
+            margin: .75px;
+            align-items: center;
+            justify-content: center;
+        }
+        .sec2{
+            background-color: rgb(45, 45, 45);
+            height: 150px;
+            width: 150px;
+            border-bottom-left-radius: 45%;
+            display: flex;
+            margin: .75px;
+            align-items: center;
+            justify-content: center;
+            box-shadow: -2px 2px 17px black;
+        }
+        .sec4{
+            background-color: rgb(255, 153, 0);
+            height: 150px;
+            width: 150px;
+            border-bottom-right-radius: 45%;
+            display: flex;
+            align-items: center;
+            margin: .75px;
+            box-shadow: 2px 2px 17px black;
+            justify-content: center;
+        }
+        #div{
+            display: inline-flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div id="div"><div class="sec1"><label id="plus">+</label></div><div class="sec3"><label id="plusM">-</label></div></div>
+            <div class="box">
+                <div id="div"><div class="sec2"><label id="plus">x</label></div><div class="sec4"><label id="plus">=</label></div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
